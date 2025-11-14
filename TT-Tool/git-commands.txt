@@ -1,0 +1,71 @@
+# ==============================================
+# COMANDOS PARA SUBIR A GITHUB
+# Copia y pega estos comandos en PowerShell
+# ==============================================
+
+# 1. Ir a la carpeta del proyecto
+cd C:\Users\Fernando\Desktop\TT-Tool
+
+# 2. Inicializar Git
+git init
+
+# 3. Agregar repositorio remoto
+git remote add origin https://github.com/FernandoGsm2002/AREPA-TOOL.git
+
+# 4. Configurar rama principal
+git branch -M main
+
+# 5. Agregar todos los archivos
+git add .
+
+# 6. Ver qué se va a subir
+git status
+
+# 7. Crear primer commit
+git commit -m "Initial commit: AREPA-TOOL v1.0 - Professional tool for Samsung, Motorola, Android devices"
+
+# 8. Subir a GitHub
+git push -u origin main
+
+# ==============================================
+# DESPUÉS DE CREAR EL REPOSITORIO DE CONFIGURACIÓN
+# ==============================================
+
+# Actualizar URL de licencia en el código
+# Edita: TT-Tool/Managers/LicenseManager.cs
+# Línea 11: private const string LICENSE_URL = "https://raw.githubusercontent.com/FernandoGsm2002/arepa-tool-config/main/license.json";
+
+# Luego hacer commit del cambio:
+git add TT-Tool/TT-Tool/Managers/LicenseManager.cs
+git commit -m "Configure remote license URL"
+git push
+
+# ==============================================
+# COMANDOS ÚTILES
+# ==============================================
+
+# Ver estado de los archivos
+git status
+
+# Ver qué cambios hay
+git diff
+
+# Ver historial de commits
+git log --oneline
+
+# Actualizar repositorio (para cambios futuros)
+git add .
+git commit -m "Descripción del cambio"
+git push
+
+# ==============================================
+# NOTAS IMPORTANTES
+# ==============================================
+
+# ✅ Los APKs de bancos NO se subirán (muy grandes)
+# ✅ Los archivos compilados NO se subirán (bin/, obj/)
+# ✅ Usa Personal Access Token como contraseña
+# ✅ El repositorio de config debe ser PÚBLICO
+
+# ==============================================
+

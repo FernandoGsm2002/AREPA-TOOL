@@ -1,0 +1,83 @@
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio cache/options
+.vs/
+.vscode/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Files built by Visual Studio
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+
+# Rider
+.idea/
+
+# NuGet
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Temporary files
+*.tmp
+*.temp
+
+# Package files
+*.zip
+*.rar
+*.7z
+
+# Except required files in Resources
+!**/Resources/**/*.apk
+!**/Resources/**/*.apks
+!**/Resources/**/*.ico
+!**/Resources/**/*.png
+!**/Resources/**/*.jpg
+!**/Resources/**/*.sh
+!**/Resources/**/*.exe
+!**/Resources/**/*.dll
+
+# Desktop packages
+AREPA-TOOL-v*/
+
+# SENSITIVE - DO NOT COMMIT
+# Exclude specific APKs from banking apps (too large for GitHub)
+**/Resources/AppsBancarias/*.apks
+**/Resources/AppsBancarias/*.apk
+
+# Exclude scrcpy zip (too large)
+**/Resources/Tools/scrcpy-win64-v3.3.3.zip
+
+# Keep only example license
+license-config.json
+
+# Exclude embedded git repositories (en la raíz)
+/Freya/
+/QualcommQCNFileEditor/

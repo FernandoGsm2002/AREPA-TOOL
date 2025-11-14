@@ -1,0 +1,13 @@
+LZ4 Tool Required
+=================
+
+To decompress Samsung AP files (.lz4), you need lz4.exe
+
+Download from:
+https://github.com/lz4/lz4/releases
+
+1. Download the latest Windows release (lz4_win64_vX.X.X.zip)
+2. Extract lz4.exe
+3. Place it in this folder: Resources/Tools/lz4.exe
+
+Alternative: Install lz4 via chocolatey or scoop and it will be used from PATH

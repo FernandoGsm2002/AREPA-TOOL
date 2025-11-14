@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "message": "Esta versión de AREPA-TOOL ha sido desactivada.\n\nPor favor descarga la última versión desde:\nLeoPE-GSM.COM",
+  "welcomeMessage": "¡Bienvenido a AREPA-TOOL!\nPeríodo gratuito activo hasta el 15/01/2025",
+  "expirationDate": "2025-12-31T23:59:59",
+  "minimumVersion": "1.0.0",
+  "updateUrl": "https://leopegsm.com/downloads"
+}
+
