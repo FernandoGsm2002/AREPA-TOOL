@@ -9,7 +9,7 @@ namespace TT_Tool.Managers
     {
         // URL donde alojarás el archivo de configuración JSON
         // Puedes usar: GitHub Raw, tu servidor web, Pastebin, etc.
-        private const string LICENSE_URL = "https://raw.githubusercontent.com/TU-USUARIO/arepa-tool-config/main/license.json";
+        private const string LICENSE_URL = "https://raw.githubusercontent.com/FernandoGsm2002/arepa-tool-config/main/license.json";
         
         // Timeout de verificación (5 segundos)
         private static readonly TimeSpan Timeout = TimeSpan.FromSeconds(5);
