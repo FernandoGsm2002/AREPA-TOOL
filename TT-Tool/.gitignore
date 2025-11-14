@@ -69,8 +69,9 @@ AREPA-TOOL-v*/
 
 # SENSITIVE - DO NOT COMMIT
 # Exclude specific APKs from banking apps (too large for GitHub)
-**/Resources/AppsBancarias/*.apks
-**/Resources/AppsBancarias/*.apk
+# TEMPORALMENTE DESHABILITADO PARA SUBIR A GITHUB
+# **/Resources/AppsBancarias/*.apks
+# **/Resources/AppsBancarias/*.apk
 
 # Exclude scrcpy zip (too large)
 **/Resources/Tools/scrcpy-win64-v3.3.3.zip
